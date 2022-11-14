@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700;800&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    min-width: 100vh;
+    color: hsl(0, 0%, 95%);
+}
+.main{
+    width: 360px;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    
+
+}
+.main img{
+    margin-top: 0.5rem;
+    width: 60px;
+}
+.card1{
+    padding: 1.5rem 2rem;
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+.card2{
+    padding: 1.5rem 2rem;
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+
+}
+.card3{
+    padding: 1.5rem 2rem;
+    background-color:  hsl(179, 100%, 13%);
+    color: white;
+    border-radius:0 0  0.5rem 0.5rem;
+}
+.main h1{
+    padding: 1.5rem 0;
+}
+button{
+    padding: 0.5rem 1.3rem;
+    border-radius: 2.5rem;
+    outline: none;
+    border: 2px solid hsl(0, 0%, 95%) ;
+
+    margin: 1.5rem 0 0.5rem 0;
+    background-color: hsl(0, 0%, 95%);
+}
+.card1 button{
+    color: hsl(31, 77%, 52%);
+}
+.card2 button{
+    color: hsl(184, 100%, 22%);
+}
+.card3 button{
+    color: hsl(179, 100%, 13%);
+}
+.card1 button:hover{
+    background-color: hsl(31, 77%, 52%);
+    color:hsl(0, 0%, 95%) ;
+} 
+.card2 button:hover{
+    background-color: hsl(184, 100%, 22%);
+    color:hsl(0, 0%, 95%) ;
+} 
+.card3 button:hover{
+    background-color: hsl(179, 100%, 13%);
+    color:hsl(0, 0%, 95%) ;
+} 
+.main p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.main h1{
+    color: hsl(0, 0%, 95%);
+}
+
+
+@media (min-width : 1020px) {
+    .main{
+        display: flex;
+        width: 860px;
+    }
+    .main button{
+        margin-top: 4.5rem;
+    }
+    .main p{
+        line-height: 1.6;
+    }
+    .card1{
+        border-radius: 8px 0  0 8px;
+    }
+    .card3{
+        border-radius: 0 8px 8px 0;
+    }
+}
