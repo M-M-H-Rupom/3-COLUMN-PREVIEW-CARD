@@ -1,3 +1,9 @@
+### Links
+
+- Live Site URL: [live site URL here](https://m-m-h-rupom.github.io/3-COLUMN-PREVIEW-CARD/)
+
+
+
 # Frontend Mentor - 3-column preview card component
 
 ![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)
